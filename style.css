@@ -2,20 +2,27 @@
     margin: 0;
     padding: 0;
   }
-  
+
+  body {
+    font-family: sans-serif;
+  }
+
+    
   .container {
     width: 1140px;
     margin: 0 auto;
   }
   
-  body {
-    font-family: sans-serif;
+  .header {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
   }
   
   .pharagraf {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
+
   }
   
   .pharagraf__header {
@@ -23,12 +30,18 @@
     line-height: 26px;
     color: #1F3F68;
     width: 425px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
   }
   
   .heading1 {
     font-size: 64px;
+    font-weight: 300;
     color: #1F3F68;
     width: 510px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
   }
   
   .heading2 {
@@ -70,6 +83,36 @@
   .menu {
     display: flex;
     justify-content: space-between;
+    padding-top: 42px;
+  }
+
+  .header__box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .header__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(images/header__back.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+
+  .header__button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
   }
   
   .main__info {
