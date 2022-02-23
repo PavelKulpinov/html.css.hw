@@ -191,8 +191,6 @@ body {
 .main {
   display: flex;
 }
-.project {}
-
 .project__img {
   width: 100%;
 }
@@ -273,6 +271,10 @@ hr {
   }
   .card {
     margin-bottom: 32px;
+  }
+  .project__text_mini {
+    font-size: 28px;
+    line-height: 46px;
   }
   .footer__top {
     padding-bottom: 64px;
